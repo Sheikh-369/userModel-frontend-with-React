@@ -1,0 +1,32 @@
+1. create a floder(frontend)
+2. open with vs code
+3. open terminal and switch to command prompt
+4. npm i create vite@latest
+5. y
+6. ./ 
+7. project name-->frontend
+8. React
+9. JavaScript
+10. npm install
+11. npm run dev
+(local host provide hunx ani click grera check grnuhos)
+
+12. npm i react-router-dom tailwindcss @tailwindcss/vite
+
+13.In vite.config.js-->
+import tailwindcss from "tailwindcss"
+[react(),tailwindcss()]
+
+14. In index.css-->Clear all the code and then include
+-->  @import "tailwindcss"
+
+15. In src floder, create a folder Pages
+HomePage.jsx
+CreateUser.jsx
+EditUser.jsx
+SingleUser.jsx
+
+16. In src floder, create a folder Components
+Navbar.jsx
+Footer.jsx
+Card.jsx
