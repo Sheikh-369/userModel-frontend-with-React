@@ -23,13 +23,15 @@ const HomePage=()=>{
     return(
         <>
             <Navbar/>
-            {
+            <div className="display flex gap-5">
+                {
                 users.map((user)=>{
                     return(
                         <Card user={user} key={user.id}/>
                     )
                 })
             }
+            </div>
             <Footer/>
         </>
     )

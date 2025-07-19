@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom"
+
 const Card=({user})=>{
     return(
         <>
-            //userName,userAge,userAddress,userImage
+  <Link to={`/single-page/${user.id}`}>    
   <div className="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
   <img src={user.userImage} alt="Product Image" />
   <div className="p-5">
@@ -13,7 +15,7 @@ const Card=({user})=>{
     </div>
   </div>
 </div>
-
+</Link>
         </>
     )
 }
