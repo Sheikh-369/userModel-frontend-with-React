@@ -7,6 +7,7 @@ import EditUser from "./Pages/EditUser"
 const App=()=>{
   return (
     <>
+    <div className="bg-blue-200">
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
@@ -15,6 +16,7 @@ const App=()=>{
         <Route path="/edit-page/:id" element={EditUser}/>
       </Routes>
       </BrowserRouter>
+      </div>
     </>
   )
 }
