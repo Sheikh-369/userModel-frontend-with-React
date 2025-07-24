@@ -23,7 +23,7 @@ const HomePage=()=>{
     return(
         <>
             <Navbar/>
-            <div className="grid grid-cols-6 gap-5 px-4 py-5">
+            <div className="grid grid-cols-5 gap-5 px-4 py-5">
                 {
                 users.map((user)=>{
                     return(
